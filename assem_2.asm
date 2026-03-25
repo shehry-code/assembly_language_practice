@@ -1,5 +1,5 @@
 [org 0x0100]
-
+	;This program is just adding all the number which is label as (num1) and store the result in lable result
 	jmp start
 	num1: dw 10, 20, 30, 40, 50, 10, 20, 30, 40, 50
 	result: dw 0
