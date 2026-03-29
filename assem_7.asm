@@ -9,7 +9,7 @@ start:
 	mov cl, 8
 	mov dl, [multiplier]
 checkbit:
-	shr dl, 1
+	shr dl, 1	; It will divide it by 2
 	jnc skip
 		mov al, [multiplicand]
 		add byte[result], al
