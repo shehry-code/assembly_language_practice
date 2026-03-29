@@ -6,8 +6,8 @@
 
 	start:
 	;initializing stuff
-	xor ax, ax
-	mov bx, ax
+	xor ax, ax	; It will remove the garbedge values from the ax register and replace it with zero
+	mov bx, ax	
 	
 	outerloop:
 		add ax, [num1 + bx]
