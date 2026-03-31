@@ -13,7 +13,7 @@ checkbit:
 	jnc skip
 		mov al, [multiplicand]
 		add byte[result], al
-		mov al, [multiplicand+1]
+		mov al, [multiplicand+1]		;change
 		adc byte[result+1], al
 skip:
 	shl byte[multiplicand], 1
