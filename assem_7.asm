@@ -17,7 +17,7 @@ checkbit:
 		adc byte[result+1], al
 skip:
 	shl byte[multiplicand], 1
-	rcl byte[multiplicand+1], 1
+	rcl byte[multiplicand+1], 1 	; misktake
 	
 
 	dec cl
