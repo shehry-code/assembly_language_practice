@@ -12,7 +12,7 @@ This repository documents my learning journey in Assembly Language.
 - `Assem_8.asm` → 32-bit Assembly program (Linux)    
 - Implementation of Bubble Sort using functions  
 - Demonstrates passing arguments to functions using the stack    
-
+- 'clearscreen.asm' will clear the full screen using Extended memory segment
 ## Learning Highlights  
 
 - Understanding function-based programming in Assembly    
